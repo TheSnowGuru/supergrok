@@ -21,7 +21,7 @@ The idea is simple. The assistant drives the work and the user only decides. Eve
 > `[ Create all ]` `[ Create without new agents ]` `[ Change the cadence ]` `[ Pick items ]`
 > *Type your own answer...*
 
-![Task card](images/task-card.png)
+<img src="images/real-card.png" alt="Task card (real screenshot)" width="350">
 *Task card: one card per item, with a ready draft and concrete next-step buttons.*
 
 > Client X invoice #1042 ($2,400) is 9 days overdue. Draft follow-up ready.
