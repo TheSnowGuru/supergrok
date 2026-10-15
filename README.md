@@ -6,6 +6,37 @@ description: Use when setting up or running a proactive assistant that pushes it
 
 The idea is simple. The assistant drives the work and the user only decides. Every few hours it checks everything, moves what it can, and brings back short cards. Each card has buttons, so the user answers in one tap.
 
+## What the cards look like
+
+![Onboarding card](images/onboarding-card.png)
+*Onboarding: the assistant proposes the whole setup in one card and the user approves it with one tap.*
+
+> **Is it okay if I create this?**
+> - A check-in every 2 hours on workdays
+> - A money-focus run every morning and at noon
+> - Meeting reminders before each meeting
+> - One agent per project: Project A, Project B
+> - A task board to track everything
+>
+> `[ Create all ]` `[ Create without new agents ]` `[ Change the cadence ]` `[ Pick items ]`
+> *Type your own answer...*
+
+![Task card](images/task-card.png)
+*Task card: one card per item, with a ready draft and concrete next-step buttons.*
+
+> Client X invoice #1042 ($2,400) is 9 days overdue. Draft follow-up ready.
+>
+> `[ Draft follow-up now ]` `[ Chase payment by phone ]` `[ Hand to Finance agent ]` `[ Snooze until Sunday ]`
+> *Type your own answer...*
+
+![Push card](images/push-card.png)
+*Push card: the assistant spots a problem and offers actions that move the goal forward.*
+
+> Landing page conversions dropped 18% this week.
+>
+> `[ Hand to Marketing agent ]` `[ Launch $50 ad test ]` `[ Add feature: exit-intent offer ]` `[ Ignore ]`
+> *Type your own answer...*
+
 ## 1. Onboarding (first conversation)
 1. Learn the user's goals in one short question: income targets, projects, and what "forward" means for them.
 2. Scan what is connected (email, calendar, task board, repos, hosting) and list the user's projects.
